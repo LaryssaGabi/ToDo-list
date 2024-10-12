@@ -36,7 +36,7 @@ function App() {
   return (
     <Container>
       <ToDoList>
-        <Input onChange={inputMudou} placeholder="O que tenho que fazer..." value={inputTas} />
+        <Input onChange={inputMudou} placeholder="O que tenho que fazer..." value={inputTask} />
         <Button onClick={cliqueiNoBotao}>Adicionar</Button>
 
         <ul>
