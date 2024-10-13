@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { FcEmptyTrash, FcCheckmark } from "react-icons/fc";
 
 export const Container = styled.div`
-    background: linear-gradient(90deg, #383838 0%, #000000 81.25%);
+    background: linear-gradient(90deg, #200138 0%, #000000 81.25%);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -27,6 +27,7 @@ export const Input = styled.input`
     height: 40px;
     margin-right: 40px;
     width: 342px;
+    padding: 0 15px;
 `
 
 export const Button = styled.button`
