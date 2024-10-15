@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "preview": "vite preview"
   },
   "dependencies": {
