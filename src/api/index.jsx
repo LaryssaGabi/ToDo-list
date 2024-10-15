@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiTodoList = axios.create({
-    baseURL: 'http://localhost:3003',
+    baseURL: 'https://todo-api-production-ba55.up.railway.app/',
 })
 
 export default apiTodoList
